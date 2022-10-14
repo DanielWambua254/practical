@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Ubuntu:ital,wght@0,300;0,400;1,500&display=swap');
+body {
+    font-size: 16px;
+    color: white;
+    background-color: #61122f;
+    font-family: sans-serif;
+}
+
+#header-nav {
+    background-color: #f5b319;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    background: url(C:\Users\BMW\Desktop\practical\images\background.jpg) no-repeat;
+    height: 150px;
+    width: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    text-decoration: none;
+}
+.navbar-brand h1 {
+    font-family: 'Lora', sans-serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    text-decoration: none;
+}
+.navbar-brand a {
+    text-decoration: none;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+    margin-bottom: 0;
+     
+}
+
+@media (min-width: 1200px) {
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+@media  (min-width: 768px) and (max-width: 991px){
+
+    .menu-items  {
+        display: none;
+     }
+    
+    
+}
+
+@media (max-width: 767px) {
+
+    .float-start {
+        display: none;
+    }
+    .menu-items  {
+        display: none;
+     }
+    
+}
+
+.menu-items li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu-items li a {
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    transition: 0.3s ease;
+}
+.menu-items li a:hover {
+   color: crimson;
+}
